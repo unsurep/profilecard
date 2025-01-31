@@ -41,7 +41,7 @@ const profileCard=()=>{
           <Image src='/pic.png' width={800} height={800} alt='profileCard' className="w-40 h-40 rounded-full" data-testid="profilePicture"/>
         </div>
 
-        <ul className="text-xs md:text-base font-semibold flex flex-col gap-1">
+        <ul className="text-xs md:text-sm font-semibold flex flex-col gap-1">
           <li className="flex items-center gap-3" data-testid="fullName"><span><FaUser /></span>Umukoro Oghenevwede Louis</li>
           <li className="flex items-center gap-3" data-testid="jobTitle"><span><FaCode /></span>Front-end Web Developer</li>
           <li  className="flex items-center gap-3" data-testid="currentLocation"><span><IoLocationSharp /></span>Rivers State, Nigeria</li>
@@ -103,7 +103,7 @@ const profileCard=()=>{
           <li className="flex items-center gap-3" data-testid="currentTimeUTC"><span><IoTime /></span>{formattedTime}</li>
         </ul>
 
-        <p className="text-xs md:text-base lg:text-base px-[1rem] md:px-[2rem] font-semibold" data-testid="shortBio">Umukoro Oghenevwede Louis is a Nigerian, result-driven with over 10 years of experience in administration, client relations and operational management. Demonstrates excellent skills in leadership, organizing and communication, with a proven ability to manage multiple tasks efficiently and contribute to team success. Recently upskilled in modern digital tools and web technologies, combining strong administrative expertise with problem-solving abilities to drive organizational growth.</p>
+        <p className="text-xs md:text-sm  px-[1rem] md:px-[2rem] font-semibold" data-testid="shortBio">Umukoro Oghenevwede Louis is a Nigerian, result-driven with over 10 years of experience in administration, client relations and operational management. Demonstrates excellent skills in leadership, organizing and communication, with a proven ability to manage multiple tasks efficiently and contribute to team success. Recently upskilled in modern digital tools and web technologies, combining strong administrative expertise with problem-solving abilities to drive organizational growth.</p>
 
       </div>
       
