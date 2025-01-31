@@ -35,7 +35,7 @@ const profileCard=()=>{
 
   return (
     <article className="bg-green-300 h-[155%] md:h-screen pt-3 md:pt-16 lg:pt-6  ">
-      <div className="flex flex-col items-center py-3 bg-white space-y-3 md:space-y-6 mx-[1rem] md:mx-[10rem] lg:mx-[23rem] ring ring-yellow-400   rounded-lg lg:h-[90%]">
+      <div className="flex flex-col items-center py-3 bg-white space-y-3 md:space-y-6 mx-[1rem] md:mx-[10rem] lg:mx-[23rem] ring ring-yellow-400   rounded-lg lg:h-[100%]">
         {/* profile image */}
         <div className="ring ring-yellow-400 rounded-full">
           <Image src='/pic.png' width={800} height={800} alt='profileCard' className="w-40 h-40 rounded-full" data-testid="profilePicture"/>
