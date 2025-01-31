@@ -35,7 +35,7 @@ const profileCard=()=>{
 
   return (
     <article className="bg-green-300 h-[155%] md:h-screen pt-3 md:pt-16 lg:pt-6  ">
-      <div className="flex flex-col items-center py-5 bg-white space-y-3 md:space-y-6 mx-[1rem] md:mx-[10rem] lg:mx-[23rem] ring ring-yellow-400   rounded-lg lg:h-[100%]">
+      <div className="flex flex-col items-center py-3 bg-white space-y-3 md:space-y-6 mx-[1rem] md:mx-[10rem] lg:mx-[23rem] ring ring-yellow-400   rounded-lg lg:h-[90%]">
         {/* profile image */}
         <div className="ring ring-yellow-400 rounded-full">
           <Image src='/pic.png' width={800} height={800} alt='profileCard' className="w-40 h-40 rounded-full" data-testid="profilePicture"/>
@@ -103,7 +103,7 @@ const profileCard=()=>{
           <li className="flex items-center gap-3" data-testid="currentTimeUTC"><span><IoTime /></span>{formattedTime}</li>
         </ul>
 
-        <p className="text-xs md:text-lg lg:text-base px-[1rem] md:px-[2rem] font-semibold" data-testid="shortBio">Umukoro Oghenevwede Louis is a Nigerian, result-driven with over 10 years of experience in administration, client relations and operational management. Demonstrates excellent skills in leadership, organizing and communication, with a proven ability to manage multiple tasks efficiently and contribute to team success. Recently upskilled in modern digital tools and web technologies, combining strong administrative expertise with problem-solving abilities to drive organizational growth.</p>
+        <p className="text-xs md:text-base lg:text-base px-[1rem] md:px-[2rem] font-semibold" data-testid="shortBio">Umukoro Oghenevwede Louis is a Nigerian, result-driven with over 10 years of experience in administration, client relations and operational management. Demonstrates excellent skills in leadership, organizing and communication, with a proven ability to manage multiple tasks efficiently and contribute to team success. Recently upskilled in modern digital tools and web technologies, combining strong administrative expertise with problem-solving abilities to drive organizational growth.</p>
 
       </div>
       
